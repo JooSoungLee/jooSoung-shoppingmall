@@ -1,0 +1,40 @@
+.login-button{
+  display:flex;
+  justify-content: right;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.nav-section{
+  display:flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.menu-list{
+  display:flex;
+  list-style-type:none;
+}
+
+.menu-list li{
+  padding:10px;
+}
+
+.menu-area{
+  display: flex;
+  justify-content: center;
+}
+
+.product-img{
+  display: flex;
+  justify-content: center;
+}
+
+/* App.css */
+.app-container {
+  margin: 5px 0; /* 전체 간격 */
+}
+
+.routes-container {
+  margin-top: 10px; /* Navbar와 Routes 사이의 간격 */
+}

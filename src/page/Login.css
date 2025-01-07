@@ -1,0 +1,19 @@
+/* Login.css */
+.login-container {
+    margin-top: 50px; /* 페이지 상단 여백 */
+}
+
+.login-form {
+    background-color: #f8f9fa; /* 배경색 */
+    padding: 30px; /* 패딩 추가 */
+    border-radius: 8px; /* 모서리 둥글게 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+h2 {
+    margin-bottom: 20px; /* 제목과 폼 간격 */
+}
+
+.text-center {
+    color: #333; /* 제목 색상 */
+}

@@ -1,0 +1,42 @@
+/* ProductDetail.css */
+.product-detail-container {
+    margin-top: 20px;
+}
+
+.product-img {
+    text-align: center; /* 이미지 중앙 정렬 */
+}
+
+.product-img img {
+    max-width: 100%; /* 이미지가 컨테이너에 맞게 조정 */
+    height: auto; /* 비율 유지 */
+}
+
+.product-info {
+    padding: 20px; /* 정보 영역에 패딩 추가 */
+}
+
+.product-title {
+    font-size: 24px; /* 제목 크기 조정 */
+    font-weight: bold; /* 제목 두껍게 */
+    margin-bottom: 10px; /* 제목과 가격 간격 */
+}
+
+.product-price {
+    font-size: 20px; /* 가격 크기 조정 */
+    color: #333; /* 가격 색상 */
+    margin-bottom: 10px; /* 가격과 선택 간격 */
+}
+
+.product-choice {
+    font-size: 16px; /* 선택 정보 크기 조정 */
+    margin-bottom: 20px; /* 선택 정보와 사이즈 선택 간격 */
+}
+
+.size-select {
+    margin-bottom: 20px; /* 사이즈 선택과 버튼 간격 */
+}
+
+.add-button {
+    width: 100%; /* 버튼을 전체 너비로 */
+}

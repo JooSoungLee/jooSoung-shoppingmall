@@ -1,0 +1,79 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-area {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex; /* Flexbox 사용 */
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    height: 100px; /* 전체 화면 높이로 설정 (필요에 따라 조정) */
+    width: 205px; /* 전체 화면 높이로 설정 (필요에 따라 조정) */
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif; /* 모던하고 둥글둥글한 폰트 */
+    font-weight: bold; /* 두꺼운 폰트 */
+    font-size: 32px; /* 폰트 크기 조정 */
+    color: #9789e4; /* 귀여운 색상으로 변경 */
+    padding: 10px 20px; /* 패딩 추가 */
+    transition: transform 0.3s; /* 애니메이션 효과 */
+    cursor: pointer; /* 손가락 커서 */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* 마우스 오버 시 확대 */
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search-area input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 5px;
+    outline: none;
+}
+
+.search-area input:focus {
+    border-color: #007bff;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+}
